@@ -1,0 +1,16 @@
+###GET All Books
+GET http://localhost:4000/books
+
+###GET a Specific Book by ID
+GET http://localhost:4000/books/65dbf097586ddd2c94672623
+
+###POST a New Book
+POST http://localhost:4000/books 
+Content-Type: application/json
+
+{
+      "title":"Three Mistakes of My Life",
+      "author": "Chetan bhagat",
+      "genre": "Love",
+      "year": 2000
+}
